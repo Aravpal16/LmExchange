@@ -1,2 +1,2 @@
 # LmExchange
- Login page and productListPage
+ Login page and productListPage with pagination    
