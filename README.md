@@ -1,2 +1,4 @@
-# LmExchange
- Login page and productListPage with pagination    
+To download required module: npm install
+
+To Run the project: npm start
+

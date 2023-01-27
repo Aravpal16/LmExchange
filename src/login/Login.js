@@ -22,7 +22,7 @@ class Login extends Component {
       .then(response => {
         console.log('Submitted successfully')
         if (response.status === HttpStatusCode.Ok) {
-          window.location = "/productlist"
+          window.location = "/main"
         }
         if (response.status === HttpStatusCode.Unauthorized) {
           this.setState({
@@ -50,6 +50,7 @@ class Login extends Component {
   render() {
     return (
       <center>
+        <div class="container">
         <div class="row">
           <div class="span12">
             <form class="form-horizontal" onSubmit={this.handleSubmit} >
@@ -81,6 +82,7 @@ class Login extends Component {
               </fieldset>
             </form>
           </div>
+        </div>
         </div>
       </center>
 
